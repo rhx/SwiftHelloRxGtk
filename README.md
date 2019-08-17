@@ -40,7 +40,7 @@ Building should work with at least Swift 5. You can download Swift from https://
 on macOS, or on Linux you should get something like:
 
 	$ swift --version
-	Swift version 5.0.1 (swift-5.0.1-RELEASE)
+	Swift version 5.0.2 (swift-5.0.2-RELEASE)
 	Target: x86_64-unknown-linux-gnu
 
 ### Gtk 3.18 or higher
