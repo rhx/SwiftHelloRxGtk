@@ -5,10 +5,10 @@ import RxSwift
 var bag = DisposeBag()
 
 let status = Application.run { app in
-    var window = ApplicationWindowRef(application: app)
-    var grid = Grid()
-    var tentry = Entry()
-    var bentry = Entry()
+    let window = ApplicationWindowRef(application: app)
+    let grid = Grid()
+    let tentry = Entry()
+    let bentry = Entry()
     let tlabel = Label(str: "Celsius:")
     let blabel = Label(str: "Farenheit:")
     grid.marginStart = 8
